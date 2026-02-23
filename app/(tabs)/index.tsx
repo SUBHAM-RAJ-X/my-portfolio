@@ -6,7 +6,7 @@ import { IntroSection } from '@/components/gabriel/IntroSection';
 import { ProjectsSection } from '@/components/gabriel/ProjectsSection';
 import { SkillsSection } from '@/components/gabriel/SkillsSection';
 import { Ticker } from '@/components/gabriel/Ticker';
-import { Image, ScrollView, StyleSheet, View } from 'react-native';
+import { Image, ScrollView, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
@@ -32,27 +32,4 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#000000',
-  },
-  backgroundImage: {
-    ...StyleSheet.absoluteFillObject,
-    width: '100%',
-    height: '100%',
-    opacity: 0.4,
-  },
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
-  },
-  scrollView: {
-    flex: 1,
-  },
-  content: {
-    padding: 24,
-    paddingTop: 60,
-    paddingBottom: 80,
-  },
-});
+
